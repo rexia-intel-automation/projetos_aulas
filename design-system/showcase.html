@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design System — Assistente CMDPII</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header" style="margin-top: var(--space-4);">
+      <span class="back-link">←</span>
+      <h1>Design System CMDPII</h1>
+      <span class="personality">Tokens</span>
+    </header>
+
+  <section class="showcase-section">
+    <h2>1. Paleta de cores</h2>
+    <div class="showcase-grid">
+      <div class="swatch">
+        <div class="swatch-color" style="background: var(--brand-red-600);"></div>
+        <div class="swatch-label">brand-red-600<br>#B91C1C</div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background: var(--brand-red-700);"></div>
+        <div class="swatch-label">brand-red-700<br>#991B1B</div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background: var(--brand-blue-800);"></div>
+        <div class="swatch-label">brand-blue-800<br>#1E3A8A</div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background: var(--brand-blue-900);"></div>
+        <div class="swatch-label">brand-blue-900<br>#172554</div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background: var(--brand-blue-50);"></div>
+        <div class="swatch-label">brand-blue-50<br>#EFF6FF</div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background: var(--brand-gold-500);"></div>
+        <div class="swatch-label">brand-gold-500<br>#CA8A04</div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background: var(--brand-gold-100);"></div>
+        <div class="swatch-label">brand-gold-100<br>#FEF9C3</div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background: var(--neutral-0);"></div>
+        <div class="swatch-label">neutral-0<br>#FFFFFF</div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background: var(--neutral-50);"></div>
+        <div class="swatch-label">neutral-50<br>#F8FAFC</div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background: var(--neutral-100);"></div>
+        <div class="swatch-label">neutral-100<br>#F1F5F9</div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background: var(--feedback-success);"></div>
+        <div class="swatch-label">feedback-success</div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background: var(--feedback-warning);"></div>
+        <div class="swatch-label">feedback-warning</div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background: var(--feedback-info);"></div>
+        <div class="swatch-label">feedback-info</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="showcase-section">
+    <h2>2. Tipografia</h2>
+    <p class="type-sample-2xl" style="margin-bottom: var(--space-2);">Título 2xl — Assistente CMDPII</p>
+    <p class="type-sample-xl" style="margin-bottom: var(--space-2);">Título xl — Seção</p>
+    <p class="type-sample-lg" style="margin-bottom: var(--space-2);">Texto lg — Subtítulo</p>
+    <p class="type-sample-md" style="margin-bottom: var(--space-2);">Texto md — Corpo padrão</p>
+    <p class="type-sample-sm" style="margin-bottom: var(--space-2);">Texto sm — Bolhas e cards</p>
+    <p class="type-sample-xs">Texto xs — Labels e disclaimers</p>
+  </section>
+
+  <section class="showcase-section">
+    <h2>3. Espaçamento e raios</h2>
+    <p style="font-size: var(--font-size-sm); margin-bottom: var(--space-2);">space-4 (16px)</p>
+    <div class="spacing-block" style="width: var(--space-4); margin-bottom: var(--space-4);"></div>
+    <p style="font-size: var(--font-size-sm); margin-bottom: var(--space-2);">space-8 (32px)</p>
+    <div class="spacing-block" style="width: var(--space-8); margin-bottom: var(--space-4);"></div>
+    <div class="showcase-grid">
+      <div>
+        <div class="radius-demo" style="border-radius: var(--radius-sm);"></div>
+        <p class="swatch-label">radius-sm</p>
+      </div>
+      <div>
+        <div class="radius-demo" style="border-radius: var(--radius-md);"></div>
+        <p class="swatch-label">radius-md</p>
+      </div>
+      <div>
+        <div class="radius-demo" style="border-radius: var(--radius-lg);"></div>
+        <p class="swatch-label">radius-lg</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="showcase-section">
+    <h2>4. Botões</h2>
+    <div class="showcase-grid" style="align-items: center;">
+      <a href="#" class="btn" onclick="return false;">Secundário</a>
+      <a href="#" class="btn btn-primary" onclick="return false;">Primário</a>
+      <span class="btn btn-small" onclick="return false;">Pequeno</span>
+    </div>
+  </section>
+
+  <section class="showcase-section">
+    <h2>5. Chat</h2>
+    <div class="chat-area">
+      <div class="messages">
+        <div class="bubble bubble-user">Posso usar relógio no uniforme?</div>
+        <div class="bubble bubble-bot">
+          <div class="label">Assistente</div>
+          <p>Resposta em linguagem simples, com base no regulamento oficial.</p>
+          <div class="source-block">
+            <strong>Fonte:</strong>
+            <a href="#">cmdpii.com.br/regulamento [exemplo]</a>
+          </div>
+        </div>
+      </div>
+      <div class="feedback-block">
+        <p>Essa resposta ajudou?</p>
+        <div class="feedback-buttons">
+          <span class="btn btn-small">Sim</span>
+          <span class="btn btn-small">Não</span>
+        </div>
+      </div>
+    </div>
+    <p class="disclaimer">Não substitui o professor da instituição.</p>
+  </section>
+
+  <section class="showcase-section">
+    <h2>6. Header, card e input</h2>
+    <header class="header">
+      <a href="#" class="back-link" onclick="return false;">← Início</a>
+      <h1>Assistente CMDPII</h1>
+      <a href="#" class="personality" onclick="return false;">Jovem</a>
+    </header>
+    <div class="cards" style="max-width: 400px; margin-bottom: var(--space-4);">
+      <div class="card selected">
+        <h3>Jovem</h3>
+        <p>Linguagem simplificada para alunos.</p>
+      </div>
+      <div class="card">
+        <h3>Formal</h3>
+        <p>Tom mais sério para responsáveis.</p>
+      </div>
+    </div>
+    <div class="input-bar" style="position: relative; box-shadow: var(--shadow-sm);">
+      <div class="input-bar-inner">
+        <input type="text" placeholder="Digite sua dúvida…" readonly>
+        <a href="#" class="btn" onclick="return false;">Enviar</a>
+      </div>
+    </div>
+  </section>
+
+  <p style="margin-top: var(--space-6); font-size: var(--font-size-sm);">
+    <a href="../index.html" class="link-secondary">Ver protótipo navegável →</a>
+  </p>
+  </div>
+</body>
+</html>

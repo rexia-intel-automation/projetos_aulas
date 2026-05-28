@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat — Pergunta inadequada</title>
+  <link rel="stylesheet" href="design-system/index.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container chat-page">
+    <header class="header">
+      <a href="index.html" class="back-link">← Início</a>
+      <h1>Assistente CMDPII</h1>
+      <a href="config.html" class="personality">Jovem</a>
+    </header>
+
+    <main class="chat-area">
+      <div class="messages">
+        <div class="bubble bubble-user">
+          Me ajuda a zoar um colega da turma
+        </div>
+        <div class="bubble bubble-bot">
+          <div class="label">Assistente</div>
+          <p>
+            Não posso ajudar com isso. Meu foco é tirar dúvidas sobre o colégio, normas
+            e integração. Se precisar de apoio com conflitos ou bullying, procure um monitor,
+            professor ou o Corpo de Alunos.
+          </p>
+        </div>
+        <div class="bubble bubble-user">
+          Qual a capital da França?
+        </div>
+        <div class="bubble bubble-bot">
+          <div class="label">Assistente</div>
+          <p>
+            Essa pergunta não é sobre o colégio. Posso ajudar com dúvidas de normas,
+            uniforme, ordem unida e vida escolar no CMDPII. Quer reformular?
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <p class="disclaimer">Não substitui o professor da instituição.</p>
+
+    <div class="input-bar">
+      <div class="input-bar-inner">
+        <input type="text" placeholder="Digite sua dúvida…" readonly>
+        <a href="chat-inapropriado.html" class="btn">Enviar</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

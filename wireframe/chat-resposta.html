@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat — Resposta</title>
+  <link rel="stylesheet" href="design-system/index.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container chat-page">
+    <header class="header">
+      <a href="index.html" class="back-link">← Início</a>
+      <h1>Assistente CMDPII</h1>
+      <a href="config.html" class="personality">Jovem</a>
+    </header>
+
+    <main class="chat-area">
+      <div class="messages">
+        <div class="bubble bubble-user">
+          Posso usar relógio no uniforme?
+        </div>
+        <div class="bubble bubble-bot">
+          <div class="label">Assistente</div>
+          <p>
+            Pelo que está no regulamento, relógio de pulso discreto costuma ser permitido,
+            mas evita modelos chamativos ou com funções que distraiam (tipo smartwatch na aula).
+            Se tiver dúvida, confere com o monitor ou o C.A. na sua turma.
+          </p>
+          <div class="source-block">
+            <strong>Fonte:</strong>
+            <a href="https://www.cmdpii.com.br" target="_blank" rel="noopener">
+              cmdpii.com.br/regulamento-uniforme [exemplo]
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="feedback-block">
+        <p>Essa resposta ajudou?</p>
+        <div class="feedback-buttons">
+          <span class="btn btn-small">Sim</span>
+          <span class="btn btn-small">Não</span>
+        </div>
+      </div>
+    </main>
+
+    <p class="disclaimer">Não substitui o professor da instituição.</p>
+
+    <div class="input-bar">
+      <div class="input-bar-inner">
+        <input type="text" placeholder="Digite sua dúvida…" readonly>
+        <a href="chat-resposta.html" class="btn">Enviar</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

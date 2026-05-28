@@ -1,0 +1,35 @@
+/**
+ * Camada 2 — Tokens semânticos
+ * Significado de uso (não vinculados a um componente específico)
+ */
+:root {
+  --color-bg-page: var(--neutral-50);
+  --color-bg-surface: var(--neutral-0);
+  --color-bg-surface-subtle: var(--neutral-100);
+  --color-bg-brand: var(--brand-blue-800);
+  --color-bg-brand-subtle: var(--brand-blue-50);
+
+  --color-text-primary: var(--neutral-900);
+  --color-text-secondary: var(--neutral-600);
+  --color-text-muted: var(--neutral-400);
+  --color-text-on-brand: var(--neutral-0);
+  --color-text-brand: var(--brand-blue-900);
+  --color-text-link: var(--brand-blue-800);
+  --color-text-warning: var(--feedback-warning);
+  --color-text-success: var(--feedback-success);
+  --color-text-error: var(--feedback-error);
+  --color-text-info: var(--feedback-info);
+
+  --color-border-default: var(--neutral-400);
+  --color-border-subtle: var(--neutral-100);
+  --color-border-focus: var(--brand-blue-800);
+  --color-border-accent: var(--brand-gold-500);
+
+  --color-action-primary: var(--brand-red-600);
+  --color-action-primary-hover: var(--brand-red-700);
+  --color-action-secondary-bg: var(--neutral-0);
+  --color-action-secondary-hover: var(--neutral-100);
+
+  --color-accent-gold: var(--brand-gold-500);
+  --color-accent-gold-bg: var(--brand-gold-100);
+}

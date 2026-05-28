@@ -1,0 +1,8 @@
+/**
+ * Wireframe — ajustes exclusivos do protótipo.
+ * Design system: design-system/index.css (via serve.py em localhost:3456).
+ */
+
+.sobre-page .actions-bottom {
+  margin-top: var(--space-6);
+}

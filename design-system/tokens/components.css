@@ -1,0 +1,123 @@
+/**
+ * Camada 3 — Tokens de componente
+ * Mapeiam semânticos/primitivos para cada peça de UI
+ */
+:root {
+  /* Button */
+  --button-padding-x: var(--space-6);
+  --button-padding-y: var(--space-3);
+  --button-padding-x-sm: var(--space-3);
+  --button-padding-y-sm: var(--space-2);
+  --button-radius: var(--radius-md);
+  --button-font-size: var(--font-size-md);
+  --button-font-size-sm: var(--font-size-sm);
+  --button-font-weight: var(--font-weight-semibold);
+  --button-min-height: var(--layout-touch-min);
+  --button-bg: var(--color-action-secondary-bg);
+  --button-text: var(--color-text-primary);
+  --button-border: var(--color-border-default);
+  --button-bg-hover: var(--color-action-secondary-hover);
+  --button-primary-bg: var(--color-action-primary);
+  --button-primary-bg-hover: var(--color-action-primary-hover);
+  --button-primary-text: var(--color-text-on-brand);
+  --button-primary-border: var(--color-action-primary);
+  --button-secondary-border: var(--color-border-default);
+
+  /* Header */
+  --header-bg: var(--color-bg-brand);
+  --header-text: var(--color-text-on-brand);
+  --header-link: var(--color-text-on-brand);
+  --header-height: auto;
+  --header-padding: var(--space-3);
+  --header-radius: var(--radius-md);
+  --header-shadow: var(--shadow-sm);
+
+  /* Personality badge */
+  --badge-bg: var(--color-accent-gold-bg);
+  --badge-text: var(--brand-blue-900);
+  --badge-border: var(--color-border-accent);
+  --badge-padding-x: var(--space-2);
+  --badge-padding-y: var(--space-1);
+  --badge-radius: var(--radius-full);
+  --badge-font-size: var(--font-size-xs);
+  --badge-font-weight: var(--font-weight-semibold);
+
+  /* Chat bubble — user */
+  --chat-bubble-user-bg: var(--neutral-100);
+  --chat-bubble-user-text: var(--color-text-primary);
+  --chat-bubble-user-radius: var(--radius-lg) var(--radius-lg) var(--radius-sm) var(--radius-lg);
+
+  /* Chat bubble — bot */
+  --chat-bubble-bot-bg: var(--color-bg-brand-subtle);
+  --chat-bubble-bot-text: var(--color-text-primary);
+  --chat-bubble-bot-border: var(--brand-blue-800);
+  --chat-bubble-bot-label: var(--color-text-secondary);
+  --chat-bubble-bot-radius: var(--radius-lg) var(--radius-lg) var(--radius-lg) var(--radius-sm);
+  --chat-bubble-padding: var(--space-3) var(--space-4);
+  --chat-bubble-font-size: var(--font-size-sm);
+
+  /* Chat area */
+  --chat-area-bg: var(--color-bg-surface);
+  --chat-area-border: var(--color-border-subtle);
+  --chat-area-radius: var(--radius-md);
+  --chat-area-shadow: var(--shadow-sm);
+  --chat-empty-text: var(--color-text-muted);
+
+  /* Input bar */
+  --input-bar-bg: var(--color-bg-surface);
+  --input-bar-border: var(--color-border-subtle);
+  --input-bar-shadow: var(--shadow-md);
+  --input-field-bg: var(--color-bg-surface);
+  --input-field-border: var(--color-border-default);
+  --input-field-radius: var(--radius-md);
+  --input-field-focus-ring: var(--color-border-focus);
+  --input-field-text: var(--color-text-primary);
+  --input-field-placeholder: var(--color-text-muted);
+
+  /* Card (config) */
+  --card-bg: var(--color-bg-surface);
+  --card-border: var(--color-border-default);
+  --card-radius: var(--radius-md);
+  --card-padding: var(--space-4);
+  --card-bg-hover: var(--color-bg-surface-subtle);
+  --card-selected-border: var(--color-border-accent);
+  --card-selected-bg: var(--color-accent-gold-bg);
+  --card-title-color: var(--color-text-brand);
+  --card-text-color: var(--color-text-secondary);
+
+  /* Feedback block */
+  --feedback-bg: var(--color-bg-surface-subtle);
+  --feedback-border: var(--color-border-subtle);
+  --feedback-radius: var(--radius-md);
+  --feedback-text: var(--color-text-primary);
+
+  /* Source block */
+  --source-text: var(--color-text-secondary);
+  --source-link: var(--color-text-info);
+  --source-border: var(--color-border-subtle);
+
+  /* Disclaimer */
+  --disclaimer-text: var(--color-text-warning);
+  --disclaimer-font-size: var(--font-size-xs);
+
+  /* Landing */
+  --landing-hero-bg: var(--color-bg-surface);
+  --landing-hero-border: var(--color-border-accent);
+  --landing-hero-radius: var(--radius-lg);
+  --landing-hero-shadow: var(--shadow-md);
+  --landing-text-color: var(--neutral-ink);
+  --landing-title-color: var(--landing-text-color);
+  --landing-tagline-color: var(--color-text-secondary);
+  --landing-footer-color: var(--color-text-muted);
+
+  /* Link secondary */
+  --link-secondary-color: var(--color-text-link);
+  --link-secondary-font-size: var(--font-size-sm);
+
+  /* Section (sobre) */
+  --section-bg: var(--color-bg-surface);
+  --section-border: var(--color-border-subtle);
+  --section-radius: var(--radius-md);
+  --section-shadow: var(--shadow-sm);
+  --section-title-color: var(--color-text-brand);
+}
